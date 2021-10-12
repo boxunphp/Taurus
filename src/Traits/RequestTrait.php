@@ -9,9 +9,9 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Traits;
+namespace Taurus\Traits;
 
-use Boxunphp\Taurus\Request\Request;
+use Taurus\Request\Request;
 
 trait RequestTrait
 {

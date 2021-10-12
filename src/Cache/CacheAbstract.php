@@ -9,14 +9,14 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Cache;
+namespace Taurus\Cache;
 
-use Boxunphp\Taurus\Cache\Drivers\ApcuCache;
-use Boxunphp\Taurus\Cache\Drivers\FileCache;
-use Boxunphp\Taurus\Cache\Drivers\MemcachedCache;
-use Boxunphp\Taurus\Cache\Drivers\RedisCache;
-use Boxunphp\Taurus\Exception\ErrorException;
-use Boxunphp\Taurus\Instance\InstanceTrait;
+use Taurus\Cache\Drivers\ApcuCache;
+use Taurus\Cache\Drivers\FileCache;
+use Taurus\Cache\Drivers\MemcachedCache;
+use Taurus\Cache\Drivers\RedisCache;
+use Taurus\Exception\ErrorException;
+use Taurus\Instance\InstanceTrait;
 
 abstract class CacheAbstract
 {

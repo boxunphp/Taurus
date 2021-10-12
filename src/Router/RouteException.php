@@ -9,9 +9,9 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Router;
+namespace Taurus\Router;
 
-use Boxunphp\Taurus\Exception\Exception;
+use Taurus\Exception\Exception;
 
 class RouterException extends Exception
 {

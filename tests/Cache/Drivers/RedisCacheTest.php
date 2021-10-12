@@ -11,7 +11,7 @@
 
 namespace Tests\Cache\Drivers;
 
-use Boxunphp\Taurus\Cache\Drivers\RedisCache;
+use Taurus\Cache\Drivers\RedisCache;
 use PHPUnit\Framework\TestCase;
 
 class RedisCacheTest extends TestCase

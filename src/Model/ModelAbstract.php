@@ -9,12 +9,12 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Model;
+namespace Taurus\Model;
 
-use Boxunphp\Taurus\Cache\CacheAbstract;
-use Boxunphp\Taurus\Exception\ErrorException;
-use Boxunphp\Taurus\Instance\InstanceTrait;
-use Boxunphp\Taurus\Database\Drivers\Mysql;
+use Taurus\Cache\CacheAbstract;
+use Taurus\Exception\ErrorException;
+use Taurus\Instance\InstanceTrait;
+use Taurus\Database\Drivers\Mysql;
 
 class ModelAbstract
 {
@@ -72,7 +72,7 @@ class ModelAbstract
      *
      * @param int|string $id
      * @return bool|mixed|null
-     * @throws \Boxunphp\Taurus\Exception\Exception
+     * @throws \Taurus\Exception\Exception
      */
     public function getOne($id)
     {
@@ -100,7 +100,7 @@ class ModelAbstract
      * @param array $idArr
      * @param array $fields
      * @return array|bool
-     * @throws \Boxunphp\Taurus\Exception\Exception
+     * @throws \Taurus\Exception\Exception
      */
     public function getMulti(array $idArr, array $fields = [])
     {
@@ -156,7 +156,7 @@ class ModelAbstract
      * @param array $fields
      * @param array $orderBy
      * @return array|bool
-     * @throws \Boxunphp\Taurus\Exception\Exception
+     * @throws \Taurus\Exception\Exception
      */
     public function getList($page, $record, array $filter = [], array $fields = [], array $orderBy = [])
     {
@@ -181,7 +181,7 @@ class ModelAbstract
      *
      * @param array $filter
      * @return int
-     * @throws \Boxunphp\Taurus\Exception\Exception
+     * @throws \Taurus\Exception\Exception
      */
     public function getTotal(array $filter = [])
     {
@@ -196,7 +196,7 @@ class ModelAbstract
      *
      * @param array $data
      * @return bool|int|string
-     * @throws \Boxunphp\Taurus\Exception\Exception
+     * @throws \Taurus\Exception\Exception
      */
     public function insert(array $data)
     {
@@ -228,7 +228,7 @@ class ModelAbstract
      * @param int|string $id
      * @param array $data
      * @return bool|int
-     * @throws \Boxunphp\Taurus\Exception\Exception
+     * @throws \Taurus\Exception\Exception
      */
     public function update($id, array $data)
     {
@@ -251,7 +251,7 @@ class ModelAbstract
      *
      * @param int|string $id
      * @return bool|int
-     * @throws \Boxunphp\Taurus\Exception\Exception
+     * @throws \Taurus\Exception\Exception
      */
     public function delete($id)
     {
@@ -270,7 +270,7 @@ class ModelAbstract
      *
      * @param array $data
      * @return bool|int|string
-     * @throws \Boxunphp\Taurus\Exception\Exception
+     * @throws \Taurus\Exception\Exception
      */
     public function insertMulti(array $data)
     {
@@ -306,7 +306,7 @@ class ModelAbstract
      *
      * @param array $data
      * @return bool|int
-     * @throws \Boxunphp\Taurus\Exception\Exception
+     * @throws \Taurus\Exception\Exception
      */
     public function updateMulti(array $data)
     {

@@ -1,7 +1,7 @@
 <?php
-namespace Boxunphp\Taurus\Session;
+namespace Taurus\Session;
 
-use Boxunphp\Taurus\Instance\InstanceTrait;
+use Taurus\Instance\InstanceTrait;
 
 class Session
 {

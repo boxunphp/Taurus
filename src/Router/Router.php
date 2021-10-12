@@ -9,12 +9,12 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Router;
+namespace Taurus\Router;
 
-use Boxunphp\Taurus\Instance\InstanceTrait;
-use Boxunphp\Taurus\Request\Request;
-use Boxunphp\Taurus\Traits\RequestTrait;
-use Boxunphp\Taurus\Helper\HttpCode;
+use Taurus\Instance\InstanceTrait;
+use Taurus\Request\Request;
+use Taurus\Traits\RequestTrait;
+use Taurus\Helper\HttpCode;
 
 /**
  * URI路由

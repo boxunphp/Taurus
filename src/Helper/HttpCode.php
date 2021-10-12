@@ -9,7 +9,7 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Helper;
+namespace Taurus\Helper;
 
 class HttpCode
 {

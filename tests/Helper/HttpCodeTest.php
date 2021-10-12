@@ -11,7 +11,7 @@
 
 namespace Tests\Helper;
 
-use Boxunphp\Taurus\Helper\HttpCode;
+use Taurus\Helper\HttpCode;
 use PHPUnit\Framework\TestCase;
 
 class HttpCodeTest extends TestCase

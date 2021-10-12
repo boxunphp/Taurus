@@ -9,7 +9,7 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Exception;
+namespace Taurus\Exception;
 
 class Exception extends \Exception
 {

@@ -11,7 +11,7 @@
 
 namespace Tests\View;
 
-use Boxunphp\Taurus\View\View;
+use Taurus\View\View;
 use PHPUnit\Framework\TestCase;
 
 class ViewTest extends TestCase

@@ -9,9 +9,9 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Database;
+namespace Taurus\Database;
 
-use Boxunphp\Taurus\Exception\Exception;
+use Taurus\Exception\Exception;
 
 class MysqlException extends Exception
 {

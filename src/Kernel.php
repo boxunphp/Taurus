@@ -9,25 +9,25 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus;
+namespace Taurus;
 
-use Boxunphp\Taurus\Traits\RequestTrait;
-use Boxunphp\Taurus\Traits\ResponseTrait;
-use Boxunphp\Taurus\Config\Config;
-use Boxunphp\Taurus\Database\MysqlException;
-use Boxunphp\Taurus\Exception\ErrorException;
-use Boxunphp\Taurus\Exception\Exception;
-use Boxunphp\Taurus\Exception\FatalException;
-use Boxunphp\Taurus\Exception\NotFoundException;
-use Boxunphp\Taurus\Exception\ServerErrorException;
-use Boxunphp\Taurus\Instance\InstanceTrait;
-use Boxunphp\Taurus\Logger\Handler\FileHandler;
-use Boxunphp\Taurus\Logger\Logger;
-use Boxunphp\Taurus\Memcached\MemcacheException;
-use Boxunphp\Taurus\Redis\RedisException;
-use Boxunphp\Taurus\Request\Request;
-use Boxunphp\Taurus\Router\Router;
-use Boxunphp\Taurus\Helper\HttpCode;
+use Taurus\Traits\RequestTrait;
+use Taurus\Traits\ResponseTrait;
+use Taurus\Config\Config;
+use Taurus\Database\MysqlException;
+use Taurus\Exception\ErrorException;
+use Taurus\Exception\Exception;
+use Taurus\Exception\FatalException;
+use Taurus\Exception\NotFoundException;
+use Taurus\Exception\ServerErrorException;
+use Taurus\Instance\InstanceTrait;
+use Taurus\Logger\Handler\FileHandler;
+use Taurus\Logger\Logger;
+use Taurus\Memcached\MemcacheException;
+use Taurus\Redis\RedisException;
+use Taurus\Request\Request;
+use Taurus\Router\Router;
+use Taurus\Helper\HttpCode;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LoggerAwareTrait;
 use Psr\Log\LogLevel;

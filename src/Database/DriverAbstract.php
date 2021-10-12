@@ -9,7 +9,7 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Database;
+namespace Taurus\Database;
 
 abstract class DriverAbstract implements DriverInterface
 {

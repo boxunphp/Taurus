@@ -9,12 +9,12 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Exception;
+namespace Taurus\Exception;
 
 /**
  * 警告的错误
  * Class WarnException
- * @package Boxunphp\Taurus\Exception
+ * @package Taurus\Exception
  */
 class WarnException extends Exception
 {

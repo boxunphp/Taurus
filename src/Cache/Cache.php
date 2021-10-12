@@ -9,7 +9,7 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Cache;
+namespace Taurus\Cache;
 
 class Cache
 {

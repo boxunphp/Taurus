@@ -11,11 +11,11 @@
 
 if (!function_exists('kernel')) {
     /**
-     * @return Boxunphp\Taurus\Kernel
+     * @return Taurus\Kernel
      */
     function kernel()
     {
-        return \Boxunphp\Taurus\Kernel::getInstance();
+        return \Taurus\Kernel::getInstance();
     }
 }
 
@@ -43,7 +43,7 @@ if (!function_exists('config')) {
 
 if (!function_exists('logger')) {
     /**
-     * @return \Boxunphp\Taurus\Logger\Logger
+     * @return \Taurus\Logger\Logger
      */
     function logger()
     {

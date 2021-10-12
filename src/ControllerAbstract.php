@@ -9,10 +9,10 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus;
+namespace Taurus;
 
-use Boxunphp\Taurus\Request\Request;
-use Boxunphp\Taurus\Response\Response;
+use Taurus\Request\Request;
+use Taurus\Response\Response;
 
 /**
  * 控制器

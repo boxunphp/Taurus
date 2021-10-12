@@ -11,7 +11,7 @@
 
 namespace Tests\Cache\Drivers;
 
-use Boxunphp\Taurus\Cache\Drivers\MemcachedCache;
+use Taurus\Cache\Drivers\MemcachedCache;
 use PHPUnit\Framework\TestCase;
 
 class MemcachedCacheTest extends TestCase

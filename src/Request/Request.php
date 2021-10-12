@@ -9,9 +9,9 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Request;
+namespace Taurus\Request;
 
-use Boxunphp\Taurus\Instance\InstanceTrait;
+use Taurus\Instance\InstanceTrait;
 use Symfony\Component\HttpFoundation\Request as HttpFoundationRequest;
 
 /**

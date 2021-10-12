@@ -19,7 +19,7 @@ if (!function_exists('env')) {
     {
         static $config;
         if (!$config) {
-            $config = \Boxunphp\Taurus\Config\Config::getInstance()->setPath(__DIR__ . '/configs');
+            $config = \Taurus\Config\Config::getInstance()->setPath(__DIR__ . '/configs');
         }
 
         return $config->get($key);

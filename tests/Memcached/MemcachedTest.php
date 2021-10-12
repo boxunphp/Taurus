@@ -11,7 +11,7 @@
 
 namespace Tests\Memcached;
 
-use Boxunphp\Taurus\Memcached\Memcached;
+use Taurus\Memcached\Memcached;
 use PHPUnit\Framework\TestCase;
 
 class MemcachedTest extends TestCase

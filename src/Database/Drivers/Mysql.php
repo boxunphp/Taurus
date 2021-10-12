@@ -9,12 +9,12 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Database\Drivers;
+namespace Taurus\Database\Drivers;
 
-use Boxunphp\Taurus\Exception\Exception;
-use Boxunphp\Taurus\Database\MysqlException;
-use Boxunphp\Taurus\Instance\InstanceTrait;
-use Boxunphp\Taurus\Database\DriverAbstract;
+use Taurus\Exception\Exception;
+use Taurus\Database\MysqlException;
+use Taurus\Instance\InstanceTrait;
+use Taurus\Database\DriverAbstract;
 
 class Mysql extends DriverAbstract
 {

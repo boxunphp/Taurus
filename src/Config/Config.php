@@ -9,10 +9,10 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Config;
+namespace Taurus\Config;
 
-use Boxunphp\Taurus\Exception\WarnException;
-use Boxunphp\Taurus\Instance\InstanceTrait;
+use Taurus\Exception\WarnException;
+use Taurus\Instance\InstanceTrait;
 
 class Config
 {

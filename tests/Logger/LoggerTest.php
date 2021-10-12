@@ -1,8 +1,8 @@
 <?php
 namespace Tests\Logger;
 
-use Boxunphp\Taurus\Logger\Handler\FileHandler;
-use Boxunphp\Taurus\Logger\Logger;
+use Taurus\Logger\Handler\FileHandler;
+use Taurus\Logger\Logger;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LogLevel;
 

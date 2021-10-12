@@ -9,9 +9,9 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Memcached;
+namespace Taurus\Memcached;
 
-use Boxunphp\Taurus\Exception\Exception;
+use Taurus\Exception\Exception;
 
 class MemcacheException extends Exception
 {

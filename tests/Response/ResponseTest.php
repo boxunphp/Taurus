@@ -11,7 +11,7 @@
 
 namespace Tests\Response;
 
-use Boxunphp\Taurus\Response\Response;
+use Taurus\Response\Response;
 use PHPUnit\Framework\TestCase;
 
 class ResponseTest extends TestCase

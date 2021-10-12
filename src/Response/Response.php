@@ -9,10 +9,10 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Response;
+namespace Taurus\Response;
 
-use Boxunphp\Taurus\Instance\InstanceTrait;
-use Boxunphp\Taurus\Utils\HttpCode;
+use Taurus\Instance\InstanceTrait;
+use Taurus\Utils\HttpCode;
 
 class Response
 {

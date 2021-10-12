@@ -9,9 +9,9 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Logger\Handler;
+namespace Taurus\Logger\Handler;
 
-use Boxunphp\Taurus\Logger\HandlerInterface;
+use Taurus\Logger\HandlerInterface;
 
 /**
  * 输出到文件

@@ -9,12 +9,12 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Exception;
+namespace Taurus\Exception;
 
 /**
  * 严重错误
  * Class ErrorException
- * @package Boxunphp\Taurus\Exception
+ * @package Taurus\Exception
  */
 class ErrorException extends Exception
 {

@@ -11,7 +11,7 @@
 
 namespace Tests\Cache\Drivers;
 
-use Boxunphp\Taurus\Cache\Drivers\FileCache;
+use Taurus\Cache\Drivers\FileCache;
 use PHPUnit\Framework\TestCase;
 
 class FileCacheTest extends TestCase

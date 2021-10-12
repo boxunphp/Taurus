@@ -11,8 +11,8 @@
 
 namespace Tests\Cache;
 
-use Boxunphp\Taurus\Cache\Cache;
-use Boxunphp\Taurus\Cache\CacheAbstract;
+use Taurus\Cache\Cache;
+use Taurus\Cache\CacheAbstract;
 use PHPUnit\Framework\TestCase;
 
 class CacheAbstractTest extends TestCase

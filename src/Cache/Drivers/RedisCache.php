@@ -9,11 +9,11 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Cache\Drivers;
+namespace Taurus\Cache\Drivers;
 
-use Boxunphp\Taurus\Cache\CacheInterface;
-use Boxunphp\Taurus\Instance\InstanceTrait;
-use Boxunphp\Taurus\Redis\Redis;
+use Taurus\Cache\CacheInterface;
+use Taurus\Instance\InstanceTrait;
+use Taurus\Redis\Redis;
 
 class RedisCache implements CacheInterface
 {

@@ -9,12 +9,12 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Exception;
+namespace Taurus\Exception;
 
 /**
  * 致命错误
  * Class FatalException
- * @package Boxunphp\Taurus\Exception
+ * @package Taurus\Exception
  */
 class FatalException extends Exception
 {

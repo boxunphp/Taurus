@@ -11,7 +11,7 @@
 
 namespace Tests\Config;
 
-use Boxunphp\Taurus\Config\Config;
+use Taurus\Config\Config;
 use PHPUnit\Framework\TestCase;
 
 class ConfigTest extends TestCase

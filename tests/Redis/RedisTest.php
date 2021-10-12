@@ -11,7 +11,7 @@
 
 namespace Tests\Redis;
 
-use Boxunphp\Taurus\Redis\Redis;
+use Taurus\Redis\Redis;
 use PHPUnit\Framework\TestCase;
 
 class RedisTest extends TestCase

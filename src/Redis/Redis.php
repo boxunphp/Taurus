@@ -9,9 +9,9 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Redis;
+namespace Taurus\Redis;
 
-use Boxunphp\Taurus\Instance\InstanceTrait;
+use Taurus\Instance\InstanceTrait;
 
 /**
  * https://github.com/phpredis/phpredis/tree/2.2.8

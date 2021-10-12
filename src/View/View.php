@@ -9,10 +9,10 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\View;
+namespace Taurus\View;
 
-use Boxunphp\Taurus\Exception\ServerErrorException;
-use Boxunphp\Taurus\Instance\InstanceTrait;
+use Taurus\Exception\ServerErrorException;
+use Taurus\Instance\InstanceTrait;
 use InvalidArgumentException;
 
 class View

@@ -9,10 +9,10 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Helper;
+namespace Taurus\Helper;
 
-use Boxunphp\Taurus\Instance\InstanceTrait;
-use Boxunphp\Taurus\Request\Request;
+use Taurus\Instance\InstanceTrait;
+use Taurus\Request\Request;
 
 class Curl
 {
@@ -33,7 +33,7 @@ class Curl
               'Content-Type' => 'application/json',
           ]
       ];
-      $res = \Boxunphp\Taurus\Helper\Curl::get($url, $params, $options, $responseHeaders);
+      $res = \Taurus\Helper\Curl::get($url, $params, $options, $responseHeaders);
      *
      * @param string $url
      * @param array $params
@@ -59,7 +59,7 @@ class Curl
               'Content-Type: application/x-www-form-urlencoded',
           ]
       ];
-      $res = \Boxunphp\Taurus\Helper\Curl::post($url, $params, $options, $responseHeaders);
+      $res = \Taurus\Helper\Curl::post($url, $params, $options, $responseHeaders);
      *
      * @param string $url
      * @param array $params

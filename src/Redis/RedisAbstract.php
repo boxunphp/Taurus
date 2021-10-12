@@ -9,10 +9,10 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Redis;
+namespace Taurus\Redis;
 
-use Boxunphp\Taurus\Exception\ErrorException;
-use Boxunphp\Taurus\Instance\InstanceTrait;
+use Taurus\Exception\ErrorException;
+use Taurus\Instance\InstanceTrait;
 
 /**
  * https://github.com/phpredis/phpredis/tree/2.2.8

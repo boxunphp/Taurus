@@ -9,13 +9,13 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Memcached;
+namespace Taurus\Memcached;
 
-use Boxunphp\Taurus\Instance\InstanceTrait;
+use Taurus\Instance\InstanceTrait;
 
 /**
  * Class Memcached
- * @package Boxunphp\Taurus\Memcached
+ * @package Taurus\Memcached
  *
  * @method bool add(string $key, mixed $value, int $expiration = 0)
  * @method bool set(string $key, mixed $value, int $expiration = 0)

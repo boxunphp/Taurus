@@ -8,9 +8,9 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Redis;
+namespace Taurus\Redis;
 
-use Boxunphp\Taurus\Exception\Exception;
+use Taurus\Exception\Exception;
 
 class RedisException extends Exception
 {

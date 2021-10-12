@@ -9,9 +9,9 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Logger;
+namespace Taurus\Logger;
 
-use Boxunphp\Taurus\Logger\Handler\FileHandler;
+use Taurus\Logger\Handler\FileHandler;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LoggerTrait;
 use Psr\Log\LogLevel;
@@ -19,7 +19,7 @@ use Psr\Log\LogLevel;
 /**
  * 日志类
  * Class Logger
- * @package Boxunphp\Taurus\Logger
+ * @package Taurus\Logger
  *
  * 根据PSR-3: Logger Interface
  *  https://www.php-fig.org/psr/psr-3/

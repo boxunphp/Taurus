@@ -11,14 +11,14 @@
 
 namespace Tests\Exception;
 
-use Boxunphp\Taurus\Exception\BadRequestException;
-use Boxunphp\Taurus\Exception\NotFoundException;
+use Taurus\Exception\BadRequestException;
+use Taurus\Exception\NotFoundException;
 use PHPUnit\Framework\TestCase;
 
 class ExceptionTest extends TestCase
 {
     /**
-     * @expectException  \Boxunphp\Taurus\Exception\NotFoundException
+     * @expectException  \Taurus\Exception\NotFoundException
      * @expectExceptionCode 404
      * @expectExceptionMessage Not Found
      */
@@ -30,7 +30,7 @@ class ExceptionTest extends TestCase
     }
 
     /**
-     * @expectException \Boxunphp\Taurus\Exception\BadRequestException
+     * @expectException \Taurus\Exception\BadRequestException
      * @expectExceptionCode 400
      * @expectExceptionMessage Bad Request
      */

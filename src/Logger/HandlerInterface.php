@@ -9,7 +9,7 @@
  * file that was distributed with this source code
  */
 
-namespace Boxunphp\Taurus\Logger;
+namespace Taurus\Logger;
 
 /**
  * 日志输出口

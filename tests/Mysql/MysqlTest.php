@@ -11,7 +11,7 @@
 
 namespace Tests\Mysql;
 
-use Boxunphp\Taurus\Database\Drivers\Mysql;
+use Taurus\Database\Drivers\Mysql;
 use PHPUnit\Framework\TestCase;
 
 class MysqlTest extends TestCase
