@@ -31,7 +31,6 @@ use Boxunphp\Taurus\Helper\HttpCode;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LoggerAwareTrait;
 use Psr\Log\LogLevel;
-use Symfony\Component\Console\Application;
 use Throwable;
 
 final class Kernel
@@ -89,28 +88,25 @@ final class Kernel
         if ($this->isInitialized) {
             return;
         }
-
         $this->rootPath = $rootPath;
         $this->appName = $appName;
-
         $this->initialize();
         $this->bootstrap();
     }
 
     /**
      * 命令行模式
-     * 使用 Symfony/Console
-     * 
-     * @return Console
+     *
+     * @param string $rootPath
+     * @return void
      */
-    public function console($name = 'Console', $version = '1.0.0')
+    public function console($rootPath)
     {
         if ($this->isInitialized) {
             return;
         }
+        $this->rootPath = $rootPath;
         $this->initialize();
-        $app = new Application($name, $version);
-        return $app;
     }
 
     /**
