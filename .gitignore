@@ -3,6 +3,8 @@
 .phpunit.result.cache
 /build/
 /vendor/
+/logs/
+/examples/
 .idea/
 .git/
 
