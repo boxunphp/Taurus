@@ -14,6 +14,9 @@ namespace Tests\View;
 use Taurus\View\View;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @group View
+ */
 class ViewTest extends TestCase
 {
     /**
@@ -40,5 +43,22 @@ class ViewTest extends TestCase
     public function testTemplate()
     {
         $this->assertEquals(__DIR__ . '/views/Common/Header.phtml', $this->view->template('Common/Header'));
+    }
+
+    /**
+     * @group View/escape
+     */
+    public function testEscape()
+    {
+        $cases = [
+            ['I &#039;m Taurus', 'I \'m Taurus'],
+            ['&lt;i&gt;HTML&lt;/i&gt;', '<i>HTML</i>'],
+        ];
+        foreach($cases as $case) {
+            $expected = $case[0];
+            $actual = $case[1];
+            self::assertEquals($expected, $this->view->escape($actual));
+        }
+        self::assertEquals('null', $this->view->escape($null, 'null'));
     }
 }

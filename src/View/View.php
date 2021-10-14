@@ -30,7 +30,7 @@ class View
      */
     public function escape(&$value, $default = '')
     {
-        echo isset($value) && $value ? htmlspecialchars($value, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') : $default;
+        return isset($value) && $value ? htmlspecialchars($value, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') : $default;
     }
 
     /**

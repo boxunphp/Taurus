@@ -16,7 +16,7 @@ use Taurus\Response\Response;
 trait ResponseTrait
 {
     /**
-     * @var Response
+     * @var \Taurus\Response\Response
      */
     private $response;
 

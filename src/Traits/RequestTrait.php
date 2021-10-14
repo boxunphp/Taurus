@@ -16,7 +16,7 @@ use Taurus\Request\Request;
 trait RequestTrait
 {
     /**
-     * @var 
+     * @var \Taurus\Request\Request
      */
     private $request;
 

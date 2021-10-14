@@ -78,3 +78,18 @@ if (!function_exists('hide_phone')) {
         return substr($phone, 0, 3) . '****' . substr($phone, -4);
     }
 }
+
+if (!function_exists('pretty_json')) {
+    /**
+     * 美化JSON
+     *
+     * @param string $json
+     * @return string
+     */
+    function pretty_json($json)
+    {
+        $arr = json_decode($json, true);
+        $prettyJson = json_encode($arr, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+        return $prettyJson;
+    }
+}

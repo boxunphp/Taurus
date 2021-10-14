@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-vendor/bin/phpunit --prepend ./tests/functions.php  --colors tests
+ARG=$*
+EXEC="vendor/bin/phpunit --prepend ./tests/functions.php --colors tests $ARG"
+exec $EXEC
